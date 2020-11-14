@@ -1,0 +1,47 @@
+.sidebar
+	width: $aside-width
+
+.sidebar-title
+	display: flex
+	align-items: stretch
+	padding-bottom: 21px
+
+	&__header
+		font-family: 'bebasregular'
+		font-size: 1.2rem
+		font-weight: 500
+		color: $orange
+		padding-right: 16px
+	
+			
+	&__line
+		flex: 1
+		background: url(../img/line.png) repeat-x center
+
+.sibebar-section
+	padding-bottom: 40px
+
+	&__text
+		color: $black
+
+	&__link
+		color: $black
+		text-decoration: none
+
+.sidebar-photo-gallery
+	display: flex
+	width: 100%
+	justify-content: space-between
+	align-content: space-between
+	flex-wrap: wrap
+
+.sidebar-photo-gallery-item	
+	border-radius: 5px
+	width: 100%
+	margin-bottom: 6px
+	border: 1px solid $orange
+	background: $orange-alpha
+	line-height: 0
+
+	// &:nth-child(4n)
+	// 	margin-right: 2px

@@ -1,0 +1,120 @@
+@font-face 
+	font-family: 'bebasregular'
+	src: url('../fonts/BEBAS___-webfont.eot')
+	src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BEBAS___-webfont.woff') format('woff'),
+	url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
+	url('../fonts/BEBAS___-webfont.svg#bebasregular') format('svg')
+	font-weight: normal
+	font-style: normal
+
+html
+	background: #FFF
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+	// font-family: "bebasregular"
+	font-size: 12px
+
+	+r(1000)
+		.blog
+			margin-right: 4px
+
+		.blog-post-icon__item
+			width: 50px
+			height: 50px
+			padding: 10px 10px 10px 12px	
+
+	+r(750)	
+		.header
+			width: 90%
+			padding: 1rem 0
+
+		.title__bg-opacity
+			width: 4.7%
+
+		.title__bg-content
+			width: 90%	
+
+		.blog
+			width: 77%
+
+		.blog-post-icon
+			width: auto
+
+		.blog-post-content
+			margin-left: 10%
+
+		.sidebar
+			width: 20%		
+
+		.blog-post-content-refer
+			padding-left: 4px	
+	
+	+r(550)
+		.header,
+		.header-menu 
+			flex-direction: column
+			width: 100%
+			padding: 0.7rem 0
+
+		.header-menu 
+			display: none	
+
+		.header-logo
+			font-size: 2rem
+		
+		.title
+			padding-bottom: 0.5rem
+
+		.title__bg-opacity
+			width: 0
+
+		.title__bg-content
+			width: 100%
+			padding: 0.5rem 3rem
+
+		.title__name
+			font-size: 1.5rem		
+
+		.content
+			flex-direction: column
+
+		.blog	
+			width: 100%
+			padding-bottom: 2rem
+			border-bottom: 5px dotted red
+
+		.blog-post
+			margin-bottom: 2rem	
+
+		.blog-post-icon
+			display: none
+
+		.blog-post-content
+			margin-left: 2%
+			margin-right: 2%
+			width: 96%	
+		
+		.blog-post-content-article
+			padding: 1rem 0 2rem 0
+
+		.blog-post-content-quote
+			margin-bottom: 2rem
+
+		.blog-post-content-refer
+			padding-bottom: 0	
+
+		.sidebar
+			width: 92%
+			margin: 0 auto
+
+		.sibebar-section	
+			padding-bottom: 1rem
+			padding-top: 2rem
+body
+	width: 100%	
+
+
+.content
+	display: flex
+	width: 100%
+	align-items: flex-start
